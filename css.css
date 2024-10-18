@@ -76,6 +76,7 @@ div.desc {
 section {
     height: 430px;
 }
+
 div.container {
     height: 600px;
 }
@@ -104,10 +105,10 @@ section.s2 {
 
 footer {
     background-color: #000000;
-    color: #ffffff; /* Set text color to white */
+    color: #ffffff;
     padding: 20px 0;
     display: flex;
-    justify-content: space-between; /* Distribute elements evenly */
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     margin-top: 40px;
@@ -118,8 +119,8 @@ footer {
     width: 90%;
     max-width: 1200px;
     display: flex;
-    justify-content: space-between; /* Ensure left and right alignment of content */
-    align-items: flex-start; /* Aligns content vertically from the top */
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 20px;
     border-top: 1px solid #333;
 }
@@ -140,7 +141,7 @@ footer img {
     margin: 0;
     font-size: 14px;
     line-height: 1.6;
-    color: #ffffff; /* Ensure text color is white */
+    color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -166,8 +167,6 @@ footer img {
         margin: 0 0 20px 0;
     }
 }
-
-/*ini awal css about*/
 
 section.about1 {
     display: flex;
@@ -208,7 +207,7 @@ section.about1 {
     width: 70%;
     display: inline-block;
     text-align: justify;
-    padding-bottom: 40px; /* Creates space between content and footer */
+    padding-bottom: 40px;
 }
 
 section.about1 img {
@@ -224,10 +223,12 @@ section.about2 {
     margin: 2%;
     font-size: larger;
 }
+
 .container-about2 {
     width: 50%;
     float: left;
 }
+
 .content-business {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 2%;
@@ -236,10 +237,6 @@ section.about2 {
     float: right;
     width: 65%;
 }
-
-/*akhir css about*/
-
-/*awal css archive*/
 
 section.album-archive {
     display: grid;
@@ -284,10 +281,6 @@ div.PHOTO-album:hover {
     filter: grayscale(1.1);
 }
 
-/*end css archive*/
-
-/*start css artist*/
-
 body {
     font-family: Arial, sans-serif;
     background-color: white;
@@ -307,6 +300,7 @@ body {
     text-align: left;
     text-decoration: none;
 }
+
 .artist-info a {
     text-decoration: none;
     color: #000;
@@ -320,8 +314,6 @@ body {
     transition: color 0.3s ease, transform 0.3s ease;
     text-decoration: none;
 }
-
-/*photo artist*/
 
 .artist-info h2:hover {
     color: #c9f975;
@@ -343,7 +335,6 @@ div.scroll-container img {
     padding: 10px;
 }
 
-/*web B.I*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -423,10 +414,6 @@ body {
     text-decoration: none;
 }
 
-/*end web*/
-
-/*news home*/
-
 .container-news {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -446,7 +433,8 @@ body {
     justify-content: space-between;
     text-decoration: none;
     color: inherit;
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: transform 0.2s, box-shadow
+
 }
 
 .card:hover {
