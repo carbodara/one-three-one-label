@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>131 Label - Our Values</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .intro {
+            padding: 40px 0;
+            background-color: #fff;
+        }
+        
+        .intro h1 {
+            font-size: 2.5em;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: #000;
+            margin-bottom: 50px;
+            line-height: 1.2;
+        }
+        
+        .values-section {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 0;
+        }
+        
+        .value-box {
+            background-color: #fff;
+            padding: 20px;
+            width: 30%;
+            text-align: left;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            position: relative;
+        }
+        
+        .value-box h3 {
+            font-size: 1.5em;
+            color: #000;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        
+        .value-box h4 {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .value-box p {
+            font-size: 1em;
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        .value-box::before,
+        .value-box::after {
+            content: "";
+            position: absolute;
+            background-color: #000;
+            height: 2px;
+            width: 40px;
+        }
+        
+        .value-box::before {
+            top: 0;
+            left: 20px;
+        }
+        
+        .value-box::after {
+            bottom: 0;
+            right: 20px;
+        }
+        
+        .hiring-process {
+            padding: 50px 0;
+            background-color: #fff;
+        }
+        
+        .hiring-process h2 {
+            font-size: 2em;
+            color: #000;
+            margin-bottom: 30px;
+        }
+        
+        .process-steps {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .step {
+            background-color: #fff;
+            padding: 20px;
+            width: 18%;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        
+        .step h3 {
+            font-size: 1.5em;
+            color: #000;
+            margin-bottom: 10px;
+        }
+        
+        .step p {
+            font-size: 1.1em;
+            color: #666;
+        }
+        
+        .faq-section {
+            padding: 20px 0;
+        }
+        
+        .faq-button {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+        
+        .faq-button:hover {
+            background-color: #333;
+        }
+        
+        @media (max-width: 768px) {
+            .values-section,
+            .process-steps {
+                flex-direction: column;
+            }
+        
+            .value-box,
+            .step {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+        
+        nav h3 {
+            color: #ffffff;
+            position: absolute;
+            left: 11%;
+        }
+        
+        nav {
+            background-color: #000000;
+            padding: 5px;
+            position: sticky;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav li {
+            margin-right: 20px;
+        }
+        
+        nav a {
+            font-size: 18px;
+            font-weight: 400;
+            text-decoration: none;
+            color: white;
+        }
+        
+        nav a:hover {
+            color: rgb(198, 243, 125);
+        }
+        
+        nav img {
+            height: 70px;
+        }
+        
+        nav li a:hover{
+            color: rgb(198, 243, 125);
+        }
+
+        footer {
+            background-color: #000000;
+            padding: 20px 0;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .container-footer {
+            width: 90%;
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-top: 1px solid #333;
+            margin-top: 20px;
+        }
+        
+        footer img {
+            height: 50px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <img src="131online-logo-ent.png" alt="logo">
+        <h3>ONE THREE ONE LABEL</h3>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="artist.html">ARTIST</a></li>
+                <li><a href="archive.html">ARCHIVE</a></li>
+                <li><a href="JOB.html">OUR VALUE</a></li>
+                <li><a href="more.html">More</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <h1>131 LABEL guides us through our behaviors and value-driven decisions.</h1>
+        </div>
+
+        <div class="values-section">
+            <div class="value-box">
+                <h3>PASSION</h3>
+                <h4>Who we are looking for</h4>
+                <p>We look for self-driven people who truly love what they do and focus on creating the best content/product/service within their area of expertise. They never give up, even when faced with adversity, and strive to solve the core issue at hand.</p>
+            </div>
+
+            <div class="value-box">
+                <h3>AUTONOMY</h3>
+                <h4>How we work</h4>
+                <p>Our company respects the different experiences and ideas of all members. Openly sharing information and feedback leads to excellence, giving each member the authority and responsibility to accomplish their goals.</p>
+            </div>
+
+            <div class="value-box">
+                <h3>TRUST</h3>
+                <h4>Our attitude towards each other</h4>
+                <p>We work together, believing that we can "Win Together". We identify with the company's vision and cooperate without condition to reach our collective goal. We encourage constructive differences of opinion.</p>
+            </div>
+        </div>
+
+        <div class="hiring-process">
+            <h2>HIRING PROCESS</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <h3>STEP 1</h3>
+                    <p>Document Submission</p>
+                </div>
+                <div class="step">
+                    <h3>STEP 2</h3>
+                    <p>Job-Related Interview</p>
+                </div>
+                <div class="step">
+                    <h3>STEP 3</h3>
+                    <p>Department Interview</p>
+                </div>
+                <div class="step">
+                    <h3>STEP 4</h3>
+                    <p>Leader Interview</p>
+                </div>
+                <div class="step">
+                    <h3>STEP 5</h3>
+                    <p>Final Decision</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-section">
+            <a href="index.html"><button class="faq-button">BACK</button></a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="nav-logooo">
+            <img src="131online-logo-ent.png">
+        </div>
+            <div class=container-footer>
+                <p>131 (ONE THREE ONE)<br><br>
+                    서울특별시 마포구 월드컵북로8길 25 <br><br>
+                    25, World Cup Buk-ro 8-gil, Mapo-gu, Seoul, Republic of Korea (03986)<br><br>
+                    official@131label.net<br><br>
+                    &copy; 2024 131 Label
+                </p>
+            </div>
+    </footer>
+</body>
+</html>
